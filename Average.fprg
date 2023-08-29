@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rizwan Hassan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-29 12:44:17 AM"/>
+        <attribute name="created" value="Uml6d2FuIEhhc3NhbjtERVNLVE9QLTNOTjExUlM7MjAyMy0wOC0yOTsxMjoxNDoyOCBBTTszNTk5"/>
+        <attribute name="edited" value="Uml6d2FuIEhhc3NhbjtERVNLVE9QLTNOTjExUlM7MjAyMy0wOC0yOTsxMjo0NDoxNyBBTTsxOzM3MDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C, Avg" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <input variable="C"/>
+            <assign variable="Avg" expression="(A+B+C)/3"/>
+            <output expression="&quot;THE AVERAGE IS &quot;" newline="False"/>
+            <output expression="Avg" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rizwan Hassan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-29 12:48:21 AM"/>
+        <attribute name="created" value="Uml6d2FuIEhhc3NhbjtERVNLVE9QLTNOTjExUlM7MjAyMy0wOC0yOTsxMjo0NDoyMSBBTTszNTk1"/>
+        <attribute name="edited" value="Uml6d2FuIEhhc3NhbjtERVNLVE9QLTNOTjExUlM7MjAyMy0wOC0yOTsxMjo0ODoyMSBBTTsxOzM3MDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Cel, A" type="Real" array="False" size=""/>
+            <output expression="&quot;Input the temperature in celcius:&quot;" newline="True"/>
+            <input variable="Cel"/>
+            <assign variable="A" expression="(cel*9)/5+32"/>
+            <output expression="&quot;The teperature in fahrenheit is &quot;" newline="False"/>
+            <output expression="A" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rizwan Hassan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-29 01:00:38 AM"/>
+        <attribute name="created" value="Uml6d2FuIEhhc3NhbjtERVNLVE9QLTNOTjExUlM7MjAyMy0wOC0yOTsxMjo1Nzo0MCBBTTszNjAw"/>
+        <attribute name="edited" value="Uml6d2FuIEhhc3NhbjtERVNLVE9QLTNOTjExUlM7MjAyMy0wOC0yOTswMTowMDozOCBBTTsxOzM3MDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="d, t" type="Real" array="False" size=""/>
+            <output expression="&quot;Distance: &quot;" newline="True"/>
+            <input variable="d"/>
+            <output expression="&quot;Time: &quot;" newline="True"/>
+            <input variable="t"/>
+            <output expression="&quot;The average speed is &quot;" newline="False"/>
+            <output expression="d/t" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
